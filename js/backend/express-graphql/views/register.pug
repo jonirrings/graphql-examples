@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title= title
+    body
+        h1= title
+
+        form(action="/register" method="post")
+            label username
+                input(name='name')
+            label password
+                input(name='pass')
+
+            input(type='submit')
+        p=message

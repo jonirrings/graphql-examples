@@ -1,0 +1,28 @@
+{
+  "name": "express-graphql",
+  "version": "1.0.0",
+  "description": "a graphql demo with express",
+  "license": "MIT",
+  "repository": "https://github.com/GraphQL-China/graphql-examples/",
+  "scripts": {
+    "dev": "babel-node src/server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "faker": "^4.1.0",
+    "graphql": "^14.5.8",
+    "graphql-relay": "^0.6.0",
+    "lodash": "^4.17.15",
+    "pug": "^2.0.4",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0"
+  }
+}

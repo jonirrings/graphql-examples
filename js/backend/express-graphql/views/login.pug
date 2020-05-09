@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title= title
+    body
+        h1= title
+        form(action='/login' method='post')
+            label user id
+                input(name='id')
+            label password
+                input(name='pass' type='password')
+
+            input(type='submit')
+        p=message
